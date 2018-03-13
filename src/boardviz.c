@@ -59,14 +59,14 @@ void PrintBoard(){
             if (j < 0 && i < 0) {
                 printf("   ");
             } else  if (j < 0) {
-                printf("%d |",i + 1);
+                printf("%d I",i + 1);
             } else if (i < 0) {
                 printf(" %c  ",'A' + j);
             } else {
-                printf(" %c |",board[j][i]);
+                printf(" %c I",board[j][i]);
             }
         }
         printf("\n  ");
-        printf("---------------------------------\n");
+        printf("________________________________\n");
     }
 }
