@@ -70,3 +70,18 @@ void PrintBoard(){
         printf("________________________________\n");
     }
 }
+
+/*int MakeMove(char *move, int m1, int pawn) {
+    int l1 = (int)(move[m1+1-pawn] - 'a');
+    int l2 = (int)(move[m1+4-pawn] - 'a');
+    int d1 = (int)(move[m1+2-pawn] - '1');
+    int d2 = (int)(move[m1+5-pawn] - '1');
+    if (CheckSyntax(move,m1,pawn) && ((pawn && (board[l1][d1]=='P' || board[l1][d1]=='p')) ||
+            (board[l1][d1]==move[m1]||board[l1][d1]==move[m1]+32)) && board[l2][d2]==' ') {
+        board[l2][d2] = board[l1][d1];
+        board[l1][d1] = ' ';
+    } else {
+        return 0;
+    }
+    return 1;
+}*/

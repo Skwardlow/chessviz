@@ -7,6 +7,13 @@ int main() {
     InitBoard();
     system("clear");
     PrintBoard();
+/*    while (MakeMove()) 
+	{
+        PrintBoard(0);
+        fprintf(outfile,"\n\n");
+    }*/
+    
+    
     printf("\n");
     return 0;
 }
