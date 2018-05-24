@@ -1,5 +1,4 @@
 #include "boardviz.h"
-#include "boardviz.c"
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
